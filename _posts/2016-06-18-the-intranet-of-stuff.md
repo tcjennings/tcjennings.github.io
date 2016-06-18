@@ -4,7 +4,7 @@ title: The Intranet of Stuff
 ---
 # The Intranet of Stuff
 
-Wikipedia has an article that describes the [Internet of Things][1]:
+Wikipedia has an article that describes the [Internet of Things][] :
 
 >The internet of things (IoT) is the network of physical devices, vehicles, buildings and other items—embedded with electronics, software, sensors, and network connectivity that enables these objects to collect and exchange data.
 
@@ -24,4 +24,4 @@ No wonder most of the stuff you see on display are about as interesting as the C
 
 If all I was going to do was turn my porch light on at dusk and off at dawn, I wouldn't bother writing about it. Sure, that's a useful algorithm to have running, but it's the Hello World of home automation. I want to accomplish some things with a little more bite to 'em.
 
-[1] https://en.wikipedia.org/wiki/Internet_of_things
+[Internet of Things]: https://en.wikipedia.org/wiki/Internet_of_things
