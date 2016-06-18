@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
    coding, and throwing good money after bad. I don't know if steady-state
    if achievable, but I'll die trying. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.theintranetofstuff.com"
+url: "http://www.intranetofstuff.com"
 twitter_username: tcjennings
 github_username: tcjennings
 
