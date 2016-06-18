@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Intranet of Stuff
+permalink: /about
 ---
 # The Intranet of Stuff
 
