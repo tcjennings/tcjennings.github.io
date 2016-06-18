@@ -1,6 +1,6 @@
 ---
-layout: post
-title: The Intranet of Stuff
+layout: page
+title: About The Intranet of Stuff
 permalink: /about
 ---
 # The Intranet of Stuff
