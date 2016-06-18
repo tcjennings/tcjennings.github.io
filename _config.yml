@@ -16,6 +16,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.intranetofstuff.com"
 twitter_username: tcjennings
 github_username: tcjennings
-
+collections:
+    use_cases:
+       output: true
+    the_tools:
+       output: true
 # Build settings
 markdown: kramdown
