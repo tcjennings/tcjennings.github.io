@@ -17,7 +17,7 @@ I want to scale it back down. I want to describe my own universe and make it "Sm
 
 Home automation is almost completely mainstream now; you can find tools to make dumb things smart in just about every home improvement super store, Best Buy, and now Target. Some of the biggest and smallest companies are putting out automation products and frameworks, including Apple's Homekit, Amazon's Alexa, Samsung's SmartThings, and of course the maker of the gold standard of automated lighting, Philips.
 
-The same ubiquitous high-speed Internet access that gives us Netflix, Hulu, and other reasons to cut the cord is bolting cloud logic to our homes through services like If This Then That and Workflow. We're doubling-down on our smart phones and democratizing a field that used to be the domain of million-dollar Creston installations.
+The same ubiquitous high-speed Internet access that gives us Netflix, Hulu, and other reasons to cut the cord is bolting cloud logic to our homes through services like If This Then That and Workflow. We're doubling-down on our smart phones and democratizing a field that used to be the domain of million-dollar [Crestron] installations.
 
 Of course, that all means a million different protocols bolted together with shims and hacks and dependence on a service provider for basic functionality.
 
@@ -26,3 +26,4 @@ No wonder most of the stuff you see on display are about as interesting as the C
 If all I was going to do was turn my porch light on at dusk and off at dawn, I wouldn't bother writing about it. Sure, that's a useful algorithm to have running, but it's the Hello World of home automation. I want to accomplish some things with a little more bite to 'em.
 
 [Internet of Things]: https://en.wikipedia.org/wiki/Internet_of_things
+[Crestron]: https://www.crestron.com
