@@ -21,5 +21,7 @@ collections:
        output: true
     the_tools:
        output: true
+    the_house:
+       output: true
 # Build settings
 markdown: kramdown

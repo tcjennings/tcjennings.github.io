@@ -2,6 +2,9 @@
 title: The ELK Stack
 layout: page
 ---
+* TOC
+{:toc}
+
 The "ELK Stack" is a group of software from [Elastic][1] that works together as a suite to ingest, process, store, index, and visualize data. Its use cases are many, and its cost is zero, so it's a good place to start.
 
 Usually ELK is concerned with consuming log files from systems and applications, but the "E" in ELK, Elasticsearch, is a NoSQL document store and search engine that doesn't care what you put in it.
@@ -12,7 +15,7 @@ The last piece, K for Kibana, is the part that you actually look at. It connects
 
 These programs aren't the only gigs in town for these features, and they're not even married to each other. If it doesn't work out, I'll just drop in something else.
 
-## Elasticsearch
+# Elasticsearch
 
 First up is [Elasticsearch][4]. It comes with a long bullet-point list of things it's good at, like scaling, distribution, and high availability, none of which I'll use on the Raspberry Pi on which it'll run.
 
@@ -53,7 +56,7 @@ pi@raspberrypi ~ $ curl http://localhost:9200
 [3]: https://www.debian.org "Debian"
 [4]: https://www.elastic.co/products/elasticsearch "Elasticsearch"
 
-## Kibana
+# Kibana
 
 With Elasticsearch up and running, the next step in the stack (since I'm skipping Logstash; this is just a EK stack, I guess. Or E_K.) is to get an instance of Kibana up and running.
 
@@ -61,7 +64,7 @@ Like for Elasticsearch, I'd love to download and use the `.deb` package for [Kib
 
 This isn't the end of the road. It'll just be a bit more fiddly to get running, but not that bad.
 
-### Kibana and Node.js
+## Kibana and Node.js
 
 Kibana is built atop Node.js, a Javascript application server. So first things first, I need to install Node and download the Kibana source package on my Pi.
 
@@ -132,7 +135,7 @@ Now I can start Kibana with `/opt/local/kibana/bin/kibana` and it'll go! Then I 
 
 Well, Kibana doesn't so much "answer" as it "asks" some bootstrappy kinds of questions like "What Elastic search index" to run search and analytics against. How should I know? It's fine, by default it suggests "logstash-*" which is the baked-in assumption that this is an ELK stack instead of an E_K stack. I can change this later when I know what my data looks like.
 
-### Kibana and Systemd
+## Kibana and Systemd
 
 The last Kibana problem is that back in my ssh session to my Pi, Kibana is actually running in the foreground. Using the `systemd` init system in Raspian, I can do better than this.
 
