@@ -25,3 +25,5 @@ collections:
        output: true
 # Build settings
 markdown: kramdown
+google_analytics: UA-79513490-1
+
