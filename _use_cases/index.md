@@ -14,7 +14,7 @@ That doesn't mean I won't put together gimmicky show-off automation toys, too.
         {{ thepage.title }}
 </a>
 
-<p class="post-excerpt">{{ page.excerpt | truncate: 160 }}</p>
+<p class="post-excerpt">{{ thepage.excerpt | truncate: 160 }}</p>
 
 {% endif %}
 {% endfor %}      

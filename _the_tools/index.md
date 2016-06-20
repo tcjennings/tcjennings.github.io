@@ -13,7 +13,7 @@ Part how-to, part why-for, and part review, these are the tools I've tried, am u
         {{ thepage.title }}
 </a>
 
-<p class="post-excerpt">{{ page.excerpt | truncate: 160 }}</p>
+<p class="post-excerpt">{{ thepage.excerpt | truncate: 160 }}</p>
 
 {% endif %}
 {% endfor %}      
