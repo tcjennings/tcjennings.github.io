@@ -7,12 +7,13 @@ The tools involved in making the dumb smart aren't all high-tech wizardry, but m
 
 Part how-to, part why-for, and part review, these are the tools I've tried, am using, or are on my wishlist.
 
-{% for page in site.the_tools %}
-
-<a href="{{ page.url | prepend: site.baseurl }}">
-        {{ page.title }}
+{% for thepage in site.the_tools %}
+{% if page.title != thepage.title %}
+<a href="{{ thepage.url | prepend: site.baseurl }}">
+        {{ thepage.title }}
 </a>
 
 <p class="post-excerpt">{{ page.excerpt | truncate: 160 }}</p>
 
+{% endif %}
 {% endfor %}      

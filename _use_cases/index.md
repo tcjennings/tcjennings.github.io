@@ -8,13 +8,13 @@ But I have more practical use cases, most of which center around managing comfor
 
 That doesn't mean I won't put together gimmicky show-off automation toys, too. 
 
-{% for page in site.use_cases %}
-
-
-<a href="{{ page.url | prepend: site.baseurl }}">
-        {{ page.title }}
+{% for thepage in site.use_cases %}
+{% if page.title != thepage.title %}
+<a href="{{ thepage.url | prepend: site.baseurl }}">
+        {{ thepage.title }}
 </a>
 
 <p class="post-excerpt">{{ page.excerpt | truncate: 160 }}</p>
 
+{% endif %}
 {% endfor %}      

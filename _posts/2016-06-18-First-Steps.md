@@ -21,6 +21,6 @@ The collections I'm starting with include:
 [Github]: https://pages.github.com
 [About]: /about.html
 [Markdown]: http://kramdown.gettalong.org "Really, it's kramdown"
-[Use Cases]: /80_use_cases.html
+[Use Cases]: /use_cases/
 [The Tools]: /10_the_tools.html
 [The House]: /90_the_house.html

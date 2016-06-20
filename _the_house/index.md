@@ -8,13 +8,14 @@ I put not-quite-enough copper into the walls to support most networking tasks, b
 
 There's a security system with your typical array of magnetic reed sensors for external doors, motion detectors, fire and smoke detectors, and keypads. They're all wired in and separate to the kind of home automation I'm going to implement, but it would be nice to have a notification or status bridge between the security panel and its devices and the home automation platform. After all, if I want to do something when a door opens, I don't want redundant sensors on that door to figure it out.
 
-{% for page in site.the_house %}
+{% for thepage in site.the_house %}
 
-
-<a href="{{ page.url | prepend: site.baseurl }}">
-        {{ page.title }}
+{% if page.title != thepage.title %}
+<a href="{{ thepage.url | prepend: site.baseurl }}">
+        {{ thepage.title }}
 </a>
 
 <p class="post-excerpt">{{ page.excerpt | truncate: 160 }}</p>
 
+{% endif %}
 {% endfor %}      

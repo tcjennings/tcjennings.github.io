@@ -19,10 +19,16 @@ github_username: tcjennings
 collections:
     use_cases:
        output: true
+       include_nav: true
+       title: Use Cases
     the_tools:
        output: true
+       include_nav: true
+       title: The Tools
     the_house:
        output: true
+       include_nav: true
+       title: The House
 # Build settings
 markdown: kramdown
 google_analytics: UA-79513490-1
