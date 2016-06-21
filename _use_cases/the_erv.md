@@ -25,6 +25,8 @@ Some ideas in this area include:
 
 The ERV itself is pretty dumb. Out of the box, it's either on or off. The builder installed a basic wall switch in the utility room where it's installed, but this is a simple on-off switch and you have to go down into the room to access it. Other, fancier, after-market wall controls exist, but these have the same proximity problem: you have to go to where the wall switch is in order to control the ERV.
 
+<img style="float: right;" src="/images/erv-lv-block.png" width="200 px" />
+
 Luckily the ERV has a low-voltage wiring block I can use to my advantage. By creating a connection between two terminals I can turn it on; by creating a connection between two other terminals, I can switch it to high speed.
 
 Specifically, I can use dry contact relays to make these connections:
