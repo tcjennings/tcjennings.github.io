@@ -13,7 +13,7 @@ The IoT describes a mesh of ubiquitous connectivity and telemetry. At a base lev
 
 I want to scale it back down. I want to describe my own universe and make it "Smart." So it's the *Intranet of Stuff*. It's my phone, my appliance, my home. Ultimately, it's my life, and I'm going to see how much of it I can waste making the stuff around me "Smart."
 
-## Making the Dumb Smart
+# Making the Dumb Smart
 
 Home automation is almost completely mainstream now; you can find tools to make dumb things smart in just about every home improvement super store, Best Buy, and now Target. Some of the biggest and smallest companies are putting out automation products and frameworks, including Apple's Homekit, Amazon's Alexa, Samsung's SmartThings, and of course the maker of the gold standard of automated lighting, Philips.
 
@@ -24,6 +24,14 @@ Of course, that all means a million different protocols bolted together with shi
 No wonder most of the stuff you see on display are about as interesting as the Clapper. "Turn your lights red when your favorite stock price goes down!" and "Unlock your front door with your smart phone!" aren't exactly use cases that get me excited about smart home tech. But I want it anyway.
 
 If all I was going to do was turn my porch light on at dusk and off at dawn, I wouldn't bother writing about it. Sure, that's a useful algorithm to have running, but it's the Hello World of home automation. I want to accomplish some things with a little more bite to 'em, which will start with a write-up as a [Use Case][].
+
+# Comment Policy
+
+Right now I have no intention of adding comment functionality to posts or pages. If you want to contact me, send me an @ message on Twitter.
+
+# Advertising Policy
+
+No ads. If I link to a product and there's an opportunity to embed an affiliate ID, I will do so. 
 
 [Internet of Things]: https://en.wikipedia.org/wiki/Internet_of_things
 [Crestron]: https://www.crestron.com

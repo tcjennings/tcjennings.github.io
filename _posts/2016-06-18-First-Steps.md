@@ -22,5 +22,5 @@ The collections I'm starting with include:
 [About]: /about.html
 [Markdown]: http://kramdown.gettalong.org "Really, it's kramdown"
 [Use Cases]: /use_cases/
-[The Tools]: /10_the_tools.html
-[The House]: /90_the_house.html
+[The Tools]: /the_tools/
+[The House]: /the_house/
