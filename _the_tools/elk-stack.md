@@ -1,6 +1,7 @@
 ---
 title: The ELK Stack
 layout: page
+tags: [elk-stack]
 ---
 * TOC
 {:toc}
@@ -179,3 +180,14 @@ This process reads new or changed service files, like the one I wrote for Kibana
 There are a bunch of configuration directives in the `/opt/local/kibana/config/kibana.yml` file but nothing that needs to be adjusted right now. I could specify a PID file and make the `systemd` unit file aware of it, or I could specify a location for Kibana's log file (it defaults to logging only to STDOUT), but otherwise the out-of-box defaults are fine for a casual E_K stack like this one.
 
 [5]: https://www.elastic.co/products/kibana
+
+# Posts About the ELK Stack
+
+{% for post in site.tags.elk-stack %}
+<ul>
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  </li>
+</ul>
+{% endfor %}

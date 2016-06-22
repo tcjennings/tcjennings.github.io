@@ -29,6 +29,9 @@ collections:
        output: true
        include_nav: true
        title: The House
+    smartthings:
+       output: true
+       title: SmartThings
 # Build settings
 markdown: kramdown
 google_analytics: UA-79513490-1

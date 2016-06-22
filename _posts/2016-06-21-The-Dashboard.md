@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Dashboard (Part I)
+tag: elk-stack
 ---
 
 An important component to a smart home is tracking the sorts of things that the house is trying to tell you and putting those facts in context with things you already know.
