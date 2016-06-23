@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Dashboard (Part I.V)
+title: Kibana Memory
 tag: elk-stack
 ---
 

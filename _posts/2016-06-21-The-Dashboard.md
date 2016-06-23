@@ -36,7 +36,7 @@ Since this is a one-size fits all format and I have at least three different kin
 
 ```json
 {
-	"date": date,
+	"@timestamp": date,
 	"days": days,
 	"utility": utility,
 	"usage":
@@ -52,7 +52,7 @@ Since this is a one-size fits all format and I have at least three different kin
 }
 ```
 
-Here I've broken "usage" into a separate object with "value" and "units" keys, where "value" would be the scalar value of a consumed utility, and "units" is how that value is measured. I'll populate this JSON with details from my most recent gas bill.
+Here I've broken "usage" into a separate object with "value" and "units" keys, where "value" would be the scalar value of a consumed utility, and "units" is how that value is measured. I've also changed 'date' to '@timestamp' so my documents fit the name by which this field is conventionally known. I'll populate this JSON with details from my most recent gas bill.
 
 ```json
 {

@@ -1,0 +1,96 @@
+{
+    "mappings" : {
+      "bill" : {
+        "properties" : {
+          "cost" : {
+            "properties" : {
+              "total" : {
+                "type" : "double"
+              },
+              "utility" : {
+                "type" : "double"
+              }
+            }
+          },
+          "@timestamp" : {
+            "type" : "date",
+            "format" : "strict_date_optional_time||epoch_millis"
+          },
+          "days" : {
+            "type" : "long"
+          },
+          "usage" : {
+            "properties" : {
+              "units" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              },
+              "value" : {
+                "type" : "long"
+              }
+            }
+          },
+          "utility" : {
+            "type" : "string"
+          }
+        }
+      },
+      "usage" : {
+        "properties" : {
+          "@timestamp" : {
+            "type" : "date",
+            "format" : "strict_date_optional_time||epoch_millis"
+          },
+          "@version" : {
+            "type" : "string"
+          },
+          "cost" : {
+            "properties" : {
+              "units" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              },
+              "utility" : {
+                "type" : "double"
+              }
+            }
+          },
+          "message" : {
+            "type" : "string",
+            "index": "not_analyzed"
+          },
+          "temperature" : {
+            "properties" : {
+              "avg" : {
+                "type" : "long"
+              },
+              "max" : {
+                "type" : "long"
+              },
+              "min" : {
+                "type" : "long"
+              },
+              "units" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              }
+            }
+          },
+          "usage" : {
+            "properties" : {
+              "units" : {
+                "type" : "string",
+                "index": "not_analyzed"
+              },
+              "value" : {
+                "type" : "long"
+              }
+            }
+          },
+          "utility" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+}
