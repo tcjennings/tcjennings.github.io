@@ -1,0 +1,9 @@
+#Recipe for renaming a field in a mapping using reindex API
+ {
+ "source": { "index": "utility2", "type": "bill" },
+ "dest": {"index":"utility" },
+ "script": {
+    "inline": "ctx._source[\"@timestamp\"] = ctx._source.remove(\"date\")"
+  }
+ }
+
