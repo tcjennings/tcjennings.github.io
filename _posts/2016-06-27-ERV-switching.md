@@ -4,7 +4,7 @@ tags: erv
 layout: post
 ---
 
-I previously described the low-voltage wiring block on my [ERV][/the_tools/the_erv.html] and how I intended to use it to hook up some smartness:
+I previously described the low-voltage wiring block on my [ERV](/the_tools/the_erv.html) and how I intended to use it to hook up some smartness:
 
 <img style="float: right;" src="/images/erv-lv-block.png" width="200 px" />
 
