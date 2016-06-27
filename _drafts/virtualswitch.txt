@@ -1,0 +1,16 @@
+---
+Title: SmartThings Virtual Switch
+layout: post
+tags: smartthings
+---
+
+One of the more powerful options in the SmartThings platform is the ability to write your own device types which can then partipate in the automation rules and be queried/triggered by other Smart Apps.
+
+It's not that many of us are going to design and build a Z-wave sensor or something, but it can be the case that you might implement some gagdet using Arduino, or want to incorporate some piece of tech with a RESTful API, and you can do these things by writing a Device Handler to integrate it with SmartThings.
+
+At its most basic, though, you can write and implement a virtual switch. I don't know why SmartThings doesn't just ship one out of the box, since it's a perennially useful abstraction to have in an automation platform. Physical switches are fun, too, but they almost always perform some task in the physical world, like turning on a light or powering a relay or something. You know what switches do.
+
+But a *virtual* switch, on the other hand, is a handy abstraction that doesn't have to do anything more than give you a target to tap. There are lots of "virtual switches" in the platform: your presence status is a virtual switch (you're either "Home" (on) or "Away" (off), for instance.
+
+Maybe, for practice, you want to build a Smart App that's functionally equivalent to the [useless machine](https://en.wikipedia.org/wiki/Useless_machine) that, when turned on, turns itself back off. Maybe you want to fire up your phone and have a button to press to do something, or you need a hook for another service like IFTTT to do the same thing. Maybe you use someone else's Smart App but they coded it to work on a physical switch and you have no such interest. I'm not here to judge or ask for acceptance, I just want one or more virtual switches so I can make things happen.
+
