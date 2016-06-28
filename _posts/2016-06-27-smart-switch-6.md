@@ -45,7 +45,7 @@ The instructions for the Smart Switch 6 say to "press the action button" to requ
 
 # Verdict
 
-The Aeon Labs Smart Switch 6 is a nifty piece of tech in a small package. It feels like it's built like a tank and it adds a lot of functionality to a Z-Wave network. The always-on USB port is a nice touch, and it can replace a USB-charging wall-wart and add Z-Wave switching at the same time.
+The Aeon Labs Smart Switch 6 is a nifty piece of tech in a small package. It feels like it's built like a tank and it adds a lot of functionality to a Z-Wave network. The always-on USB port is a nice touch, and it can replace a USB-charging wall-wart and add Z-Wave switching at the same time. However, it puts out a relatively anemic 1000 mA of juice, so it's on par with a phone charger. It would take a long time to charge a tablet and doesn't have enough punch to supply something like a Raspberry Pi.
 
 At $50 it's priced similarly to Belkin's WeMo Insight Switch, which provides similar energy-tracking features, but is too expensive to justify including many of them in your network. Z-Wave nearly begs for a device in every electrical box just for range and mesh networking, but the Smart Switch 6 should be a luxury, not the workhorse of your network.
 
