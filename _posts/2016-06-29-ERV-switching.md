@@ -17,6 +17,8 @@ I have not been able to locate a Z-wave 3-position (SPDT or SPCO) switch. Every 
 * The ERV's HI line is connected to the NC terminal of Relay<sub>1</sub>.
 * Relay<sub>1</sub>'s trigger is connected to a 12V DC line that is switched by SW<sub>2</sub>.
 
+<img style="float: right;" src="/images/erv/erv.png" width="320 px" />
+
 This means that:
 
 * SW<sub>1</sub> can be on or off, which controls whether the ERV is on or off.
