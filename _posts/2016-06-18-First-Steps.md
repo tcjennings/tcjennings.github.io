@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: about
 ---
 This is my Intranet of Things blog. It's new, it's built in [Jekyll][] and hosted in [Github][] Pages. I'm not trying to win any design awards, but I do want to evolve a bit from this stark utilitarian default theme.
 

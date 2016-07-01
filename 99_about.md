@@ -33,6 +33,17 @@ Right now I have no intention of adding comment functionality to posts or pages.
 
 No ads. If I link to a product and there's an opportunity to embed an affiliate ID, I will do so. 
 
+# Posts About The Intranet of Things
+
+{% for post in site.tags.about %}
+<ul>
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  </li>
+</ul>
+{% endfor %}
+
 [Internet of Things]: https://en.wikipedia.org/wiki/Internet_of_things
 [Crestron]: https://www.crestron.com
 [Use Case]: /use_cases/
