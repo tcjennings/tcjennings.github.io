@@ -27,7 +27,11 @@ If all I was going to do was turn my porch light on at dusk and off at dawn, I w
 
 # Comment Policy
 
-Right now I have no intention of adding comment functionality to posts or pages. If you want to contact me, send me an @ message on Twitter.
+Right now I have no intention of adding comment functionality to posts or pages. If you want to discuss some content, see the Contact Policy. You could create a thread in a public forum and bring my attention to it.
+
+# Contact Policy
+
+If you want to contact me, send me an @ message on Twitter or an email at the listed address.
 
 # Advertising Policy
 
