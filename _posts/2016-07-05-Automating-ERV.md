@@ -48,7 +48,7 @@ If I think about the types of triggers upon which Continuous Ventilation might d
 <img style="float: right;" src="/images/erv-auto/IMG_0157.jpg" width="200 px" />
 <img style="float: right;" src="/images/erv-auto/IMG_0156.jpg" width="200 px" />
 
-For now I'll leave these options alone and say that I'm "Done" with my routine. The routine is now installed and available in the app. I can put it on my notification page, but the procedure to do so is uninuitive:
+For now I'll leave these options alone and say that I'm "Done" with my routine. The routine is now installed and available in the app. I can put it on my notification page, but the procedure to do so is unintuitive:
 
 1. Press the hamburger menu in the upper right.
 2. Select "My Account" from the resulting pane.
