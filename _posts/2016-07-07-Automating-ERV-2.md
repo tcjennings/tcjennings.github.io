@@ -207,8 +207,13 @@ def getDewPointThreshold() {
 
 //Validate runtime in minutes
 private findRunTime() {
-	(pminutes > 60) ? 60 : pminutes
-	(pminutes < 1 ) ? 1 : pminutes
+	if (pminutes > 60) {
+		return 60
+    } else if (pminutes < 1) {
+    	return 1 
+    } else {
+    	return pminutes
+    }
 }
 ```
 
