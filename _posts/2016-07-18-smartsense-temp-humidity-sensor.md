@@ -14,7 +14,7 @@ This information, then, may be moot. But no matter.
 
 # Installation
 
-The SmartSense Temp/Humidity sensor is a little white rectangle that shares dimensions with the [Water Leak Sensor](http://amzn.to/2aoQK3r), or about 2.5 inches on its long side. It comes with a slightly smaller mounting plate and some 3M mounting tape so you can stick it to a surface or mount it permanently with a screw (which it also comes it, along with a wall anchor).
+The SmartSense Temp/Humidity sensor is a little white rectangle that shares dimensions with the [Water Leak Sensor](http://amzn.to/2aoQK3r), or about 2.5 inches on its long side. It comes with a slightly smaller mounting plate and some 3M mounting tape so you can stick it to a surface or mount it permanently with a screw (which it also comes with, along with a wall anchor).
 
 The SmartThings devices, including the SmartSense Temp/Humidity sensor, are [Zigbee][] devices, so they won't benefit from an existing mesh of [Z-Wave][] devices.
 
