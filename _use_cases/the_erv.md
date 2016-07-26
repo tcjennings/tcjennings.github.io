@@ -38,7 +38,7 @@ I can make do with that. Some of the fancier wall controls have as many as 5 spe
 
 In a purely mechanical world, I could use a 3-position switch to make these connections, where the ON terminal is the common line and I switch it between LOW and HI (with the third position being OFF). But I do not want a mechanical solution, I want a smart solution.
 
-# Posts About the ERV
+# Posts About Irrigation
 
 {% for post in site.tags.erv %}
 <ul>
