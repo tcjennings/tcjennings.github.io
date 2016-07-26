@@ -48,7 +48,7 @@ Since the box is only 2" deep there's not enough room to do that if I want to be
 
 First I find some old 18-gauge thermostat wire and grab a red and a white conductor. These get soldered onto the solenoid's spades.
 
-The other end I solder to a panel mount 1/8" jack that is meant to accept a TS connector (that's Tip and Shield, or "mono" if it were an audio jack).
+The other end I solder to a panel mount 1/8" jack that is meant to accept a TS connector (that's Tip and Sleeve, or "mono" if it were an audio jack).
 
 The jack has an outer diameter of 1/4" and the washer and nut need about 3/8" of clearance. The PVC box is much thicker than the jack is, so I first drill a 1/4" hole through the box and then carefully drill a 3/8" counter-sink space around it. This allows me to mount the jack into the box (heh) such that it sits flush.
 
