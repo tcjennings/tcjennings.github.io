@@ -20,5 +20,17 @@ Of course my sprinkler controller is a builder-grade something or other with a u
 
 It's clear that this won't suffice for really making my dumb sprinklers smart. Of course, I have no idea how standardized sprinkler controllers are. I know there are "smart" controllers on the market, but I haven't yet done the research to figure out my next steps here.
 
+# Posts About the ERV
+
+{% for post in site.tags.irrigation %}
+<ul>
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  </li>
+</ul>
+{% endfor %}
+
+
 [rain tank]: http://www.bushmanusa.com/530-gallon-slimline-rain-tank
 [Hunter X-Core]: https://www.hunterindustries.com/irrigation-product/controllers/x-core
