@@ -175,6 +175,8 @@ This is success, but it's not very useful yet. It's an important building block,
 
 Next step: Integrate this building block with [SmartThings](/the_tools/smartthings) and get this thing participating in my Smart Home activities.
 
+Continue to [Part 2]({% post_url 2016-08-09-rpi-serial-server-2 %}).
+
 [^1]: Turns out after fighting with this thing for a while, it's broken. You can always tell if a serial port is working through a loopback test, and this thing failed every attempt I made. I ended up buying a [new PL2303-based adapter](http://amzn.to/2alDYBo) which worked great right off the bat.
 
 [^2]: The Raspberry Pi also has a built-in serial port as part of its GPIO set of pins, and this is available to the system at `/dev/ttyAMA0` but for simplicity's sake I've gone the USB route. The GPIO serial port on the Pi runs at 3.3v instead of RS232's 5V which means you probably need [additional kit](http://amzn.to/2alEXlc) to make it work anyway.
