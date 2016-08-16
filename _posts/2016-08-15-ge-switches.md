@@ -78,7 +78,7 @@ When I am successful, I can continue my project by installing more switches in t
 
 1. At the top of the stairs, a smart switch for `A`.
 2. At the bottom of the stairs, an aux switch for `A` and a smart switch for `C`.
-3. At the wet bar, a dumb switch[^2] for `2` and an aux switch for `C`.
+3. At the wet bar, a dumb switch[^2] for `B` and an aux switch for `C`.
 4. At the close end of the hallway, an aux switch for each of `C` and `E`.
 5. At the far end of the hallway, a smart switch for `E`.
 
