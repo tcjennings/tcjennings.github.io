@@ -4,6 +4,8 @@ layout: post
 tags: the_house the_internet
 ---
 
+** Updated Oct 2, 2016 **
+
 In a [previous post][], I described the state of my home Internet service. Today Spectrum (née Time Warner Cable) came by and installed my new high-speed service. This should tide me over until Google Fiber finally comes through.
 
 # The Installation
@@ -184,6 +186,19 @@ I'm guessing this is SNMP v2, which is very prevalent and not very secure. The "
 The EdgeRouter X is not a plug-and-play device. I think the initial wizard config is sufficient for 80% of SOHO networks, but some services like VPNs, IPv6, UPNP, Port Forwarding, etc., will take some extra configuration. The GUI is slick and generally useful (it doesn't seem to work well in Safari, though, so I used Chrome). The CLI is powerful but not as well documented, but the fact that every configuration action results in a discrete CLI command means you can easily save, archive, and version-control your configs and copy-paste in a complete working configuration if you ever paint yourself into a corner.
 
 For $50 it's amazing what this little guy can do, and the feature set meets or exceeds Enterprise-level gear. If you don't need the UTM features of something like PFSense, the Ubiquiti gear is a great tool.
+
+# Addendum (Added Oct 2, 2016)
+
+It might be worth noting that the stateless IPv6 configuration can still be used to tell clients to use specific IPv6 DNS servers, which I accomplished on the ERX with these commands:
+
+```
+set interfaces ethernet eth0 dhcpv6-pd pd 0 interface switch0 no-dns
+set interfaces switch switch0 ipv6 router-advert other-config-flag true
+set interfaces switch switch0 ipv6 router-advert name-server 2001:4860:4860::8888
+set interfaces switch switch0 ipv6 router-advert name-server 2001:4860:4860::8844
+```
+
+The above set of commands first tells the system not to propagate the DNS config received from the ISP, then to instead use Google's IPv6 DNS addresses. The "other-config-flag" setting enables this extra stuff in the v6 Router Advertisements from the ERX, though [technically](https://tools.ietf.org/html/rfc4861#section-4.2) setting the "O" flag is redundant if the "M" flag is also set. The downside to this setup is that Windows doesn't make use of the "RDNSS" portion of SLAAC.
 
 [Motorola Cable Modem]: http://amzn.to/2dcB4Tn
 [previous post]: {% post_url 2016-09-28-internet-i %}
