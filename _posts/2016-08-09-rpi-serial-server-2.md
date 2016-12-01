@@ -61,7 +61,7 @@ The stack he wrote includes:
 
 It's pretty slick stuff if you have a Russound controller. So my options were to yank out my Monoprice stuff and put in Russound instead, or mod the open source software to my own purposes.
 
-So I did the latter thing, which makes me a contriber to his stack, so now in addition to the above, it includes:
+So I did the latter thing, which makes me a contributer to his stack, so now in addition to the above, it includes:
 
 * A Monoprice plugin that knows how to talk to the multi-zone amp over the serial port;
 * A Monoprice Zone Device Handler;
