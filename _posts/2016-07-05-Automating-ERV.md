@@ -232,6 +232,6 @@ In Part 2 of this exploration, I'll add more intelligence to the ERV operation a
 [SmartThings]: /the_tools/smartthings
 [developer portal]: http://graph.api.smartthings.com
 [documentation]: http://docs.smartthings.com/en/latest/index.html
-[Grafana]: {% post_url 2016-07-01-grafana %}
+[Grafana]: {% post_url 2016-12-10-grafana %}
 [smart bed]: /the_tools/smartbed
 [Groovy]: http://www.groovy-lang.org
