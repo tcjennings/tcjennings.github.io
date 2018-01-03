@@ -33,11 +33,13 @@ Right now I have no intention of adding comment functionality to posts or pages.
 
 If you want to contact me, send me an @ message on Twitter or an email at the listed address.
 
+You can also visit or follow my [Reddit profile][].
+
 # Advertising Policy
 
 No ads. If I link to a product and there's an opportunity to embed an affiliate ID, I will do so. 
 
-# Posts About The Intranet of Things
+# Posts About The Intranet of Stuff
 
 {% for post in site.tags.about %}
 <ul>
@@ -51,3 +53,4 @@ No ads. If I link to a product and there's an opportunity to embed an affiliate 
 [Internet of Things]: https://en.wikipedia.org/wiki/Internet_of_things
 [Crestron]: https://www.crestron.com
 [Use Case]: /use_cases/
+[Reddit profile]: https://www.reddit.com/user/IntranetOfStuff/
