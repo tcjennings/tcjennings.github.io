@@ -1,7 +1,7 @@
 ---
 title: Speed At Last
 layout: post
-tags: the_house the_internet
+tags: the_house the_internet network
 ---
 
 ** Updated Oct 2, 2016 **
