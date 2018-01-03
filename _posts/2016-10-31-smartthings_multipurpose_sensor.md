@@ -4,6 +4,8 @@ layout: post
 tags: smartthings
 ---
 
+** Update October 18, 2017: Just shy of one year of operation, I've had to replace the batteries in these units. That's not too bad. In bulk, name-brand CR-2450 batteries are less than $2, but if you have a lot of sensors it might be a hassle to go around replacing them all.
+
 [SmartThings](/the_tools/smartthings) was nice enough to send me a pair of their [Multipurpose Sensors](https://shop.smartthings.com/#!/products/samsung-smartthings-multipurpose-sensor), which I've been meaning to pick up.
 
 These little guys pack 4 different sensors into a small form factor (which while small is not discreet), but you can only really use 3 of them at a time[^1].
@@ -14,7 +16,7 @@ These little guys pack 4 different sensors into a small form factor (which while
 
 At about 2" by 1.5", the sensor itself is small; the same form factor as other SmartThings sensors, like the discontinued [Temp/Humidity Sensor][] that this sensor presumably replaces. It's about 0.75" deep when attached to the optional wall-mount bracket, so like most battery-powered sensors it sits like a wart on whatever surface to which you attach it, which given its utility is probably your door trim.
 
-The senor is powered by a single 3V CR-2450 battery. Other SmartThings sensors I've used in the same form factor with the same battery have lasted over a year so far, so I might expect similar longevity from this unit.
+The sensor is powered by a single 3V CR-2450 battery. Other SmartThings sensors I've used in the same form factor with the same battery have lasted over a year so far, so I might expect similar longevity from this unit.
 
 Like the other first-party SmartThings sensors, this guy runs on the ZigBee network instead of Z-Wave, which means it doesn't take advantage of the network repeating ability of various Z-Wave devices around the house. To test its useful range, I've installed one of these sensors in my office, which is the front bedroom of the house. The house is largely square-ish, but this room juts out the front such that 3 of its four walls are exterior walls. This positioning makes the room particularly challenging for wireless technology. Both the SmartThings hub and my Wi-Fi AP are in the more-or-less centered utility room, and Wi-Fi has trouble covering very deep into this room.
 
