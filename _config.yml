@@ -17,6 +17,10 @@ url: "http://www.intranetofstuff.com"
 twitter_username: tcjennings
 github_username: tcjennings
 collections:
+    first_principles:
+       output: true
+       include_nav: true
+       title: First Principles
     use_cases:
        output: true
        include_nav: true
