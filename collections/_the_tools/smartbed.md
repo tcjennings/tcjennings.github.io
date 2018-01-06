@@ -5,6 +5,19 @@ title: Eight (Smart Mattress Cover)
 * TOC
 {:toc}
 
+# Pages About Smart Bed
+<ul>
+{% assign sorted = site.smart_bed | sort: 'moddate' | reverse %}
+{% for item in sorted %}
+  <li>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    <span class="date">{{ item.moddate | date: "%B %-d, %Y"  }}</span>
+  </li>
+{% endfor %}
+</ul>
+
+# Eight Sleep (nee Luna)
+
 In March of 2015 I contributed to a project on [Indiegogo][] for a product called Luna Sleep, which promised to be a sleep tracker built into a mattress cover. The estimated delivery was August of that year.
 
 That was a nonsense target and the product didn't ship anywhere near that date, which was fine because at the time I didn't even have a King-size bed for the King-size smart mattress cover I'd just funded.

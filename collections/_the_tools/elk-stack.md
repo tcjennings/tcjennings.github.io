@@ -181,13 +181,15 @@ There are a bunch of configuration directives in the `/opt/local/kibana/config/k
 
 [5]: https://www.elastic.co/products/kibana
 
-# Posts About the ELK Stack
+# Pages About the ELK Stack
 
-{% for post in site.tags.elk-stack %}
 <ul>
+{% assign sorted = site.elk_stack | sort: 'moddate' | reverse %}
+{% for item in sorted %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    <span class="date">{{ item.moddate | date: "%B %-d, %Y"  }}</span>
   </li>
-</ul>
 {% endfor %}
+</ul>
+

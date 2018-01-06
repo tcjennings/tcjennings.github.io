@@ -204,7 +204,7 @@ The above set of commands first tells the system not to propagate the DNS config
 [Motorola Cable Modem]: http://amzn.to/2dcB4Tn
 [previous post]: {% link collections/_the_network/internet-1.md %}
 [ElasticSearch]: /the_tools/elk-stack.html
-[Grafana]: {% post_url 2016-12-10-grafana %}
+[Grafana]: {% link collections/_elk_stack/grafana.md %}
 [RFC1918]: https://tools.ietf.org/html/rfc1918
 [rules]: https://supportforums.cisco.com/document/100566/understanding-ipv6-eui-64-bit-address
 

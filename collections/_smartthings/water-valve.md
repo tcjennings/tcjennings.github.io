@@ -1,7 +1,8 @@
 ---
 title: Assembling a 12v Water Valve
-layout: post
-tags: smartthings irrigation diy
+layout: page
+tags: [smartthings,irrigation,diy]
+moddate: 2016-07-26
 ---
 
 I just picked up a few knick-knacks with which to start prototyping part of an implementation for my [irrigation][]-related [use case][]. In this article I'll be assembling a 12-volt water valve that I will use in tandem with a Z-Wave dry-contact relay to automate filling my 500+ gallon rain tank from a garden hose.
