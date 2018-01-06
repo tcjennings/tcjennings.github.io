@@ -50,13 +50,4 @@ In a purely mechanical world, I could use a 3-position switch to make these conn
 {% endfor %}
 
 
-{% for post in site.tags.erv %}
-<ul>
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-  </li>
-</ul>
-{% endfor %}
-
 [ERV]: https://en.wikipedia.org/wiki/Energy_recovery_ventilation
