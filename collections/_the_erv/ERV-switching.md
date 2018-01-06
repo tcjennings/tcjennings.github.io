@@ -1,7 +1,7 @@
 ---
 title: Adding Z-Wave Functionality To My ERV
-tags: erv
-layout: post
+tags: erv smartthings zwave
+layout: page
 ---
 
 I previously described the low-voltage wiring block on my [ERV](/the_tools/the_erv.html) and how I intended to use it to hook up some smartness:

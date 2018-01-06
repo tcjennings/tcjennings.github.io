@@ -16,26 +16,26 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.intranetofstuff.com"
 twitter_username: tcjennings
 github_username: tcjennings
+collections_dir: ./collections
 collections:
     first_principles:
        output: true
-       include_nav: true
        title: First Principles
     use_cases:
        output: true
-       include_nav: true
        title: Use Cases
     the_tools:
        output: true
-       include_nav: true
        title: The Tools
     the_house:
        output: true
-       include_nav: true
        title: The House
-    smartthings:
+    the_erv:
        output: true
-       title: SmartThings
+       title: The ERV
+    the_network:
+       output: true
+       title: The Network
 # Build settings
 markdown: kramdown
 google_analytics: UA-79513490-1

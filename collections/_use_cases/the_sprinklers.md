@@ -1,6 +1,7 @@
 ---
 title: The Sprinklers
 layout: page
+logline: The grass needs watered, but let's not be wasteful about it.
 ---
 My house is not on a large lot. My previous house was, and while a big backyard with mature trees sounds like a great thing on paper, it's not so great in real life. I don't have dogs or children, so I didn't really need the space. It was just a thing I had to take care of.
 

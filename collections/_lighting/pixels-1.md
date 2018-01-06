@@ -1,7 +1,7 @@
 ---
 title: LED Pixels I
-layout: post
-tags: the_tools
+layout: page
+tags: the_tools lighting
 ---
 
 In this post I describe operating a string of individually-addressable [LED pixels][] using [Open Lighting Architecture][] on a [Raspberry Pi][] through [Docker][]. It's jargon-heavy but conversational in tone.

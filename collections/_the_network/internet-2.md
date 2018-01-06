@@ -1,7 +1,8 @@
 ---
 title: Speed At Last
-layout: post
-tags: the_house the_internet network
+layout: page
+tags: the_house the_internet the_network
+moddate: 2016-10-02
 ---
 
 ** Updated Oct 2, 2016 **
@@ -201,7 +202,7 @@ set interfaces switch switch0 ipv6 router-advert name-server 2001:4860:4860::884
 The above set of commands first tells the system not to propagate the DNS config received from the ISP, then to instead use Google's IPv6 DNS addresses. The "other-config-flag" setting enables this extra stuff in the v6 Router Advertisements from the ERX, though [technically](https://tools.ietf.org/html/rfc4861#section-4.2) setting the "O" flag is redundant if the "M" flag is also set. The downside to this setup is that Windows doesn't make use of the "RDNSS" portion of SLAAC.
 
 [Motorola Cable Modem]: http://amzn.to/2dcB4Tn
-[previous post]: {% post_url 2016-09-28-internet-i %}
+[previous post]: {% link collections/_the_network/internet-1.md %}
 [ElasticSearch]: /the_tools/elk-stack.html
 [Grafana]: {% post_url 2016-12-10-grafana %}
 [RFC1918]: https://tools.ietf.org/html/rfc1918
