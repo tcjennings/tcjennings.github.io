@@ -50,6 +50,46 @@ No ads. If I link to a product and there's an opportunity to embed an affiliate 
 </ul>
 {% endfor %}
 
+## Site Metadata
+{% assign rawtags = "" %}
+
+### Site Collections
+<ul>
+{% for collection in site.collections %}
+<li>{{collection.label}}</li>
+{% endfor %}
+</ul>
+
+### Site Pages with Tags
+<ul>
+{% for collection in site.collections %}
+{% for doc in collection.docs %}
+{% assign ttags = doc.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append: ttags %}
+<li>{{doc.title}}: {{ttags}} </li>
+{% endfor %}
+{% endfor %}
+</ul>
+
+### Site Tags
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+{% for tag in rawtags %}
+   {% if tag != "" %}
+      {% if tags == "" %}
+         {% assign tags = tag | split:'|' %}
+      {% endif %}
+      {% unless tags contains tag %}
+         {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+      {% endunless %}
+   {% endif %}
+{% endfor %}
+
+{% for tag in tags %}
+<a href="#{{ tag |slugify }}"> {{ tag }} </a>
+{% endfor %}
+
 [Internet of Things]: https://en.wikipedia.org/wiki/Internet_of_things
 [Crestron]: https://www.crestron.com
 [Use Case]: /use_cases/

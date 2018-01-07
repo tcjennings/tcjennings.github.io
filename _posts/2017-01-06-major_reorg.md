@@ -15,7 +15,7 @@ One benefit was that it was easy to create the topic navigation strip at the top
 
 So I'm reorganizing the site. Even though it might not look dramatically different, there's a lot of changes behind the scenes that will make it easier to update and maintain.
 
-This is not a re-*design*, obviously. I don't have a whole lot of ideas or interest about changing the layout and CSS, so the stark default appearance will stick around for now. This is fine by me, since I think it's pretty readable and renders well on mobile.
+This is not a re-*design*, obviously. I am looking at some Jekyll themes that are just as simple but have a few extra slots for content, but I'll tackle that a little later. For now, the default theme is readable and renders well on mobile.
 
 Conceptually, I am organizing the site like this:
 
