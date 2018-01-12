@@ -17,7 +17,7 @@ url: "http://www.intranetofstuff.com"
 twitter_username: tcjennings
 github_username: tcjennings
 reddit_username: intranetofstuff
-collections_dir: ./collections
+collections_dir: collections
 collections:
     first_principles:
        output: true
