@@ -72,26 +72,15 @@ As I mentioned above, SmartThings gives you a platform on which to write your ow
 
 This is a very broad overview of SmartThings, and there are a lot of facets I might want to discuss.
 
-# Additional Pages About SmartThings
+# Pages About SmartThings
 
-{% for thepage in site.smartthings %}
-{% if page.title != thepage.title %}
-<a href="{{ thepage.url | prepend: site.baseurl }}">
-        {{ thepage.title }}
-</a>
-
-<p class="post-excerpt">{{ thepage.excerpt | truncate: 160 }}</p>
-
-{% endif %}
-{% endfor %}      
-
-# Posts Tagged With SmartThings
-
-{% for post in site.tags.smartthings %}
 <ul>
+{% assign sorted = site.smartthings | sort: 'moddate' | reverse %}
+{% for item in sorted %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    <span class="date">{{ item.moddate | date: "%B %-d, %Y"  }}</span>
   </li>
-</ul>
 {% endfor %}
+</ul>
+

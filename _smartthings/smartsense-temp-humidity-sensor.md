@@ -1,7 +1,8 @@
 ---
 title: SmartThings SmartSense Temp/Humidity Sensor
-layout: post
-tags: smartthings
+layout: page
+tags: [smartthings]
+moddate: 2016-07-18
 ---
 
 When I first got my [SmartThings][] hub (version 2), I didn't have much in the way of Things to connect to it. I did have some rough ideas of [use cases][] in mind, so instead of a bunch of switches I went for the low-hanging fruit: battery-powered sensors. Along with that hub I got a [Aeon Labs Multisensor][] and a pair of SmartThings-branded temperature/humidity [sensors][].

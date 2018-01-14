@@ -1,7 +1,8 @@
 ---
 title: SmartThings Multipurpose Sensor
-layout: post
-tags: smartthings
+layout: page
+tags: [smartthings]
+moddate: 2016-10-31
 ---
 
 ** Update October 18, 2017: Just shy of one year of operation, I've had to replace the batteries in these units. That's not too bad. In bulk, name-brand CR-2450 batteries are less than $2, but if you have a lot of sensors it might be a hassle to go around replacing them all.
@@ -82,7 +83,7 @@ You might think in that second case that a vibration sensor on a window is a goo
 
 I'm going to use these sensors for a week or two in a particular application: one on my office door, and the other on the washing machine. I'll collect the stats from the sensors and see how they stack up against my expectations in reporting interval and accuracy. After that, I'll look into any third-party or community device drivers and see how far under the hood I can really peak, or whether I'm stuck with simple boolean results for the accelerometer.
 
-[Temp/Humidity Sensor]: {% post_url 2016-07-18-smartsense-temp-humidity-sensor %}
+[Temp/Humidity Sensor]: {% link _smartthings/smartsense-temp-humidity-sensor.md %}
 [outdoor lighting]: http://amzn.to/2fxtTYO
 [ventilation]: /use_cases/the_erv.html
 [alarm]: /use_cases/the_alarm.html

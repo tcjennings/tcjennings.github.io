@@ -35,9 +35,21 @@ If you want to contact me, send me an @ message on Twitter or an email at the li
 
 You can also visit or follow my [Reddit profile][].
 
-# Advertising Policy
+# Advertising/Monetization Policy
 
-No ads. If I link to a product and there's an opportunity to embed an affiliate ID, I will do so. 
+No ads. If I link to a product and there's an opportunity to embed an affiliate ID, I will do so.
+
+Unless explicitly noted, no company, brand, or product mention is a result of sponsorship.
+
+# License/Copyright
+
+[Jekyll](https://github.com/jekyll/jekyll), the Jekyll ["minima" theme](https://github.com/jekyll/minima), and the [Liquid](https://github.com/Shopify/liquid) templating language are licensed under the MIT license.
+
+All Liquid and HTML elements in this site accessible via the github repository from which it is hosted are hereby released under the MIT license.
+
+All product and company names are trademarks ™ or registered ® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. 
+
+All text, photographs, and other source code is copyright 2016-2018 Toby Jennings, All Rights Reserved, unless otherwise noted.
 
 # Posts About The Intranet of Stuff
 
@@ -48,6 +60,46 @@ No ads. If I link to a product and there's an opportunity to embed an affiliate 
     <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
   </li>
 </ul>
+{% endfor %}
+
+## Site Metadata
+{% assign rawtags = "" %}
+
+### Site Collections
+<ul>
+{% for collection in site.collections %}
+<li>{{collection.label}}</li>
+{% endfor %}
+</ul>
+
+### Site Pages with Tags
+<ul>
+{% for collection in site.collections %}
+{% for doc in collection.docs %}
+{% assign ttags = doc.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append: ttags %}
+<li>{{doc.title}}: {{ttags}} </li>
+{% endfor %}
+{% endfor %}
+</ul>
+
+### Site Tags
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+{% for tag in rawtags %}
+   {% if tag != "" %}
+      {% if tags == "" %}
+         {% assign tags = tag | split:'|' %}
+      {% endif %}
+      {% unless tags contains tag %}
+         {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+      {% endunless %}
+   {% endif %}
+{% endfor %}
+
+{% for tag in tags %}
+<a href="#{{ tag |slugify }}"> {{ tag }} </a>
 {% endfor %}
 
 [Internet of Things]: https://en.wikipedia.org/wiki/Internet_of_things

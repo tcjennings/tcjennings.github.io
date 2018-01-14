@@ -1,7 +1,21 @@
 ---
 title: The ERV
 layout: page
+logline: While most homes have an HVAC system, not every home has an ERV (Energy Recovery Ventilation).
 ---
+# Pages About the ERV
+
+{% for item in site.the_erv %}
+<ul>
+  <li>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    <span class="date">{{ item.date | date: "%B %-d, %Y"  }}</span>
+  </li>
+</ul>
+{% endfor %}
+
+# The ERV
+
 While most homes have an HVAC system, not every home has an [ERV][]. According to Wikipedia,
 
 >Energy recovery ventilation (ERV) is the energy recovery process of exchanging the energy contained in normally exhausted building or space air and using it to treat (precondition) the incoming outdoor ventilation air in residential and commercial HVAC systems.
@@ -37,17 +51,5 @@ Specifically, I can use dry contact relays to make these connections:
 I can make do with that. Some of the fancier wall controls have as many as 5 speed settings, but for my purposes switching between Low and High seems fine.
 
 In a purely mechanical world, I could use a 3-position switch to make these connections, where the ON terminal is the common line and I switch it between LOW and HI (with the third position being OFF). But I do not want a mechanical solution, I want a smart solution.
-
-# Posts About the ERV
-
-{% for post in site.tags.erv %}
-<ul>
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-  </li>
-</ul>
-{% endfor %}
-
 
 [ERV]: https://en.wikipedia.org/wiki/Energy_recovery_ventilation

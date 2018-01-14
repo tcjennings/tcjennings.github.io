@@ -1,6 +1,6 @@
 ---
 title: Automating the ERV Part 1
-layout: post
+layout: page
 tags: erv smartthings
 ---
 
@@ -227,11 +227,11 @@ After the scheduled time arrives, I can verify that the ERV switches are turned 
 
 In Part 2 of this exploration, I'll add more intelligence to the ERV operation and have it react to outdoor conditions and bathroom humidity levels when deciding whether to run.
  
-[zwave]: {% post_url 2016-06-29-ERV-switching %}
+[zwave]: {% link _the_erv/ERV-switching.md %}
 [ERV]: /use_cases/the_erv
 [SmartThings]: /the_tools/smartthings
 [developer portal]: http://graph.api.smartthings.com
 [documentation]: http://docs.smartthings.com/en/latest/index.html
-[Grafana]: {% post_url 2016-12-10-grafana %}
+[Grafana]: {% link _elk_stack/grafana.md %}
 [smart bed]: /the_tools/smartbed
 [Groovy]: http://www.groovy-lang.org

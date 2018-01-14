@@ -1,20 +1,24 @@
 ---
 title: The Network
 layout: page
-tags: [network]
+tags: the_network
+logline: A smart home is nothing without one or more networks connecting devices.
 ---
 * TOC
 {:toc}
 
-Coming soon.
+A smart home is nothing without one or more networks connecting devices.
 
-# Posts About the network
+More coming soon.
 
-{% for post in site.tags.network %}
+# Pages About the network
+
 <ul>
+{% assign sorted = site.the_network | sort: 'moddate' | reverse %}
+{% for item in sorted %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    <span class="date">{{ item.moddate | date: "%B %-d, %Y"  }}</span>
   </li>
-</ul>
 {% endfor %}
+</ul>

@@ -1,7 +1,8 @@
 ---
 title: Installing GE Z-Wave Smart Dimmer Switches
-layout: post
-tags: lighting smartthings
+layout: page
+tags: [lighting,smartthings]
+moddate: 2016-08-15
 ---
 
 *Disclaimer: This post is not meant as advice or tutorial for performing electrical work. Treat it only as food for thought when considering your own electrical projects. Every house is different: there is no guarantee what color your wires will be or how exactly your switches are wired.*
@@ -36,7 +37,7 @@ A smart switch works completely differently. There's only one switch involved in
 
 At least in the case of the GE Smart switches, you can add a number of aux switches to accomplish 3-, 4-, or 5-way switching. The travellers from each one just get connected *all together* and plugged into the master switch's single "traveller" jack.
 
-Before I pull stuff out of the walls and start reconfiguring things, I used my [project board]({% post_url 2016-08-01-project-board %}) to preview the setup -- it allows me to make sure the new switches are operational and join them to my Z-Wave network before permanently installing them. This also gives me a "known good" configuration so that if it doesn't work after I install them for real, I know it's probably a wiring issue, not a configuration problem.
+Before I pull stuff out of the walls and start reconfiguring things, I used my [project board]({% link _smartthings/project-board.md %}) to preview the setup -- it allows me to make sure the new switches are operational and join them to my Z-Wave network before permanently installing them. This also gives me a "known good" configuration so that if it doesn't work after I install them for real, I know it's probably a wiring issue, not a configuration problem.
 
 # It Takes An Algorithm
 

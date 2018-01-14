@@ -1,18 +1,16 @@
 ---
 layout: page
-title: Hue Smart Lighting
+title: Raspberry Pi and Arduino
 ---
 * TOC
 {:toc}
 
 Coming soon.
 
-Check out [Hue](http://www2.meethue.com/en-us/).
-
-# Pages about Hue
+# Pages about Raspberry Pi and Arduino
 
 <ul>
-{% assign sorted = site.hue | sort: 'moddate' | reverse %}
+{% assign sorted = site.raspberry_pi | sort: 'moddate' | reverse %}
 {% for item in sorted %}
   <li>
     <a href="{{ item.url }}">{{ item.title }}</a>

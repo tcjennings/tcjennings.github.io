@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: page
 title: The Dashboard (Part II) - Logstash
 tag: elk-stack
+moddate: 2016-06-24
 ---
 I was wondering if I'd have a use for [Logstash][] in my [ELK Stack][]. So far I've used Elasticsearch (the "E") and Kibana (the "K") in setting up a [dashboard][] for my home. It turns out there is a reason to use Logstash (the "L") after all.
 
@@ -300,4 +301,4 @@ That should do it. I'll uncomment both the `file` and `elasticsearch` sections o
 [here]: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html
 [Logstash]: https://www.elastic.co/products/logstash
 [ELK Stack]: /the_tools/elk-stack.html
-[dashboard]: {% post_url 2016-06-21-The-Dashboard %}
+[dashboard]: {% link _elk_stack/The-Dashboard.md %}

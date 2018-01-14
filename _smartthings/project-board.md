@@ -1,7 +1,8 @@
 ---
 title: Z-Wave Project Board
-layout: post
-tags: smartthings
+layout: page
+tags: [smartthings]
+moddate: 2016-08-01
 ---
 
 When it comes to smart home or home automation doo-dads, some you put a battery in and stick on a shelf; some you plug into the wall wherever you want the thing. But yet others require you to open up a part of your house and dig around in its guts.

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: page
 title: Kibana Memory
-tag: elk-stack
+tag: elk-stack raspberry-pi
+moddate: 2016-06-22
 ---
 
 # Kibana and Memory
@@ -10,7 +11,7 @@ tag: elk-stack
 
 Bug reports like [this][1] and [this][2] illuminate what is probably the problem. The Raspberry Pi is a fairly low-resource environment, and I already gave a full 50% of the available RAM to Elasticsearch.
 
-[Last post]: {% post_url 2016-06-21-The-Dashboard %}
+[Last post]: {% link _elk_stack/The-Dashboard.md %}
 [1]: https://github.com/elastic/kibana/issues/5170
 [2]: https://github.com/elastic/kibana/pull/5451 "This is actually a merge request, not a bug report"
 

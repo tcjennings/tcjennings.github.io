@@ -1,7 +1,8 @@
 ---
 title: Using GE Z-Wave Smart Dimmer Switches
-layout: post
-tags: lighting smartthings
+layout: page
+tags: [lighting,smartthings]
+moddate: 2016-08-16
 ---
 
 In a [previous post][] I detailed the installation of a few [GE Z-Wave Smart Dimmer Switches](http://amzn.to/2aVk9nE) in 3- and 4-way installations. In this post I'll detail more of the implementation.
@@ -90,8 +91,8 @@ The interaction of these two values means you can create a lot of different beha
 Right. The GE Smart Dimmer Switch. It's mainstream. It's widely available. It's not inexpensive. It does what it says it does. You might have to mess around with SmartThings before you're actually happy with it.
 
 [IDE]: https://graph.api.smartthings.com
-[previous post]:{% post_url 2016-08-15-ge-switches %}
-[project board]: {% post_url 2016-08-01-project-board %}
+[previous post]:{% link _smartthings/ge-switches.md %}
+[project board]: {% link _smartthings/project-board.md %}
 [advanced configuration]: http://www.ezzwave.com/advanced-operation/
 [Commercial Electric]: http://www.homedepot.com/p/Commercial-Electric-5-in-and-6-in-White-Recessed-LED-Trim-with-2700K-92-CRI-CER6730DWH27/204726945
 [elsewhere]: http://docs.smartthings.com/en/latest/tools-and-ide/github-integration.html

@@ -1,7 +1,8 @@
 ---
 title: Raspberry Pi Serial Server Part 2
-layout: post
-tags: the_stereo smartthings
+layout: page
+tags: the_stereo smartthings raspberry_pi
+moddate: 2016-08-09
 ---
 
 In [Part 1][] I detailed attaching a [Raspberry Pi][] to my [Monoprice 6-zone amp][] via a serial cable and getting them talking with the help of a [Node][]-based [app][]. I left off after suggesting that my end goal was to integrate the Amp into my [SmartThings][] ecosystem using this Rpi<->Serial<->Amp hookup.
@@ -85,7 +86,7 @@ Next time I'll talk about how exactly SmartThings makes use of this thing and so
 [app]: https://github.com/jnewland/mpr-6zhmaut-api
 [SmartThings]: /the_tools/smartthings
 [Monoprice 6-zone amp]: http://www.monoprice.com/product?c_id=109&cp_id=10918&cs_id=1091801&p_id=10761&seq=1&format=2
-[Part 1]: {% post_url 2016-08-03-rpi-serial-server %}
+[Part 1]: {% link _raspberry_pi/rpi-serial-server.md %}
 [Raspberry Pi]: https://www.raspberrypi.org/products/model-b/
 [house]: /the_house/
 [page I wrote about it]: /the_tools/smartthings

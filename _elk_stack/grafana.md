@@ -1,7 +1,8 @@
 ---
 title: Grafana
-layout: post
+layout: page
 tags: elk-stack smartthings
+moddate: 2016-12-10
 ---
 
 # Update 12-10-2016

@@ -1,6 +1,7 @@
 ---
 title: The Christmas Tree
 layout: page
+logline: Oh Xmas tree, Oh Xmas tree, Alexa turns you ah-on.
 ---
 
 Our Christmas tree is not a living thing, it's one of the fake ones. It's not green, it's silver. It's a vintage Evergleam aluminum Christmas tree, the kind that *Charlie Brown's Christmas* supposedly made tacky.

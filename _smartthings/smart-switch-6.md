@@ -1,7 +1,8 @@
 ---
 title: Aeon Labs Smart Switch 6
-layout: post
-tags: smartthings
+layout: page
+tags: [smartthings]
+moddate: 2016-06-27
 ---
 <img style="float: right;" src="/images/smart-switch-6/unbox.jpg" width="320 px" />
 

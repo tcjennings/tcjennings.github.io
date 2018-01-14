@@ -16,26 +16,48 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.intranetofstuff.com"
 twitter_username: tcjennings
 github_username: tcjennings
+reddit_username: intranetofstuff
+collections_dir: collections
 collections:
     first_principles:
        output: true
-       include_nav: true
        title: First Principles
     use_cases:
        output: true
-       include_nav: true
        title: Use Cases
     the_tools:
        output: true
-       include_nav: true
        title: The Tools
     the_house:
        output: true
-       include_nav: true
        title: The House
+    the_erv:
+       output: true
+       title: The ERV
+    the_network:
+       output: true
+       title: The Network
+    elk_stack:
+       output: true
+       title: The ELK Stack
+    hue:
+       output: true
+       title: Hue Lighting
+    netatmo:
+       output: true
+       title: NetAtmo
+    smart_bed:
+       output: true
+       title: Smart Bed
     smartthings:
        output: true
-       title: SmartThings
+       title: Samsung SmartThings
+    thermostat:
+       output: true
+       title: Smart Thermostat
+    raspberry_pi:
+       output: true
+       title: Raspberry Pi and Arduino
 # Build settings
 markdown: kramdown
 google_analytics: UA-79513490-1

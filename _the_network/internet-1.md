@@ -1,7 +1,8 @@
 ---
 title: A Tale of Two Internets
-layout: post
-tags: the_house the_internet network
+layout: page
+tags: the_house the_internet the_network
+moddate: 2016-09-28
 ---
 
 I've had two Internet setups at [the house] so far, with a third and -- I hope -- a fourth coming soon.
