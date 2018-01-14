@@ -176,7 +176,7 @@ This is success, but it's not very useful yet. It's an important building block,
 
 Next step: Integrate this building block with [SmartThings](/the_tools/smartthings) and get this thing participating in my Smart Home activities.
 
-Continue to [Part 2]({% link collections/_raspberry_pi/rpi-serial-server-2.md %}).
+Continue to [Part 2]({% link _raspberry_pi/rpi-serial-server-2.md %}).
 
 [^1]: Turns out after fighting with this thing for a while, it's broken. You can always tell if a serial port is working through a loopback test, and this thing failed every attempt I made. I ended up buying a [new PL2303-based adapter](http://amzn.to/2alDYBo) which worked great right off the bat.
 

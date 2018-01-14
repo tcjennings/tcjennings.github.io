@@ -83,7 +83,7 @@ You might think in that second case that a vibration sensor on a window is a goo
 
 I'm going to use these sensors for a week or two in a particular application: one on my office door, and the other on the washing machine. I'll collect the stats from the sensors and see how they stack up against my expectations in reporting interval and accuracy. After that, I'll look into any third-party or community device drivers and see how far under the hood I can really peak, or whether I'm stuck with simple boolean results for the accelerometer.
 
-[Temp/Humidity Sensor]: {% link collections/_smartthings/smartsense-temp-humidity-sensor.md %}
+[Temp/Humidity Sensor]: {% link _smartthings/smartsense-temp-humidity-sensor.md %}
 [outdoor lighting]: http://amzn.to/2fxtTYO
 [ventilation]: /use_cases/the_erv.html
 [alarm]: /use_cases/the_alarm.html

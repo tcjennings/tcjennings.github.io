@@ -86,7 +86,7 @@ Next time I'll talk about how exactly SmartThings makes use of this thing and so
 [app]: https://github.com/jnewland/mpr-6zhmaut-api
 [SmartThings]: /the_tools/smartthings
 [Monoprice 6-zone amp]: http://www.monoprice.com/product?c_id=109&cp_id=10918&cs_id=1091801&p_id=10761&seq=1&format=2
-[Part 1]: {% link collections/_raspberry_pi/rpi-serial-server.md %}
+[Part 1]: {% link _raspberry_pi/rpi-serial-server.md %}
 [Raspberry Pi]: https://www.raspberrypi.org/products/model-b/
 [house]: /the_house/
 [page I wrote about it]: /the_tools/smartthings

@@ -113,9 +113,9 @@ In Part 4 of this series, I'll address the coexistence of the periodic and on-de
 
 Here is the [complete SmartApp][] so far.
 
-[Part 1]: {% link collections/_the_erv/Automating-ERV.md %}
-[Part 2]: {% link collections/_the_erv/Automating-ERV-2.md %}
-[Z-Wave functionality]: {% link collections/_the_erv/ERV-switching.md %}
+[Part 1]: {% link _the_erv/Automating-ERV.md %}
+[Part 2]: {% link _the_erv/Automating-ERV-2.md %}
+[Z-Wave functionality]: {% link _the_erv/ERV-switching.md %}
 [ERV]: /use_cases/the_erv.html
 [SmartThings]: /the_tools/smartthings.html
 [Forecast.io]: https://developer.forecast.io

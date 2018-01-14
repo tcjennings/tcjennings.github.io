@@ -275,8 +275,8 @@ In Part 3 of this series, I'll address the need for a backup plan.
 
 [Forecast.io]: https://developer.forecast.io
 [Netatmo Weather Station]: /the_tools/netatmo
-[Part 1]: {% link collections/_the_erv/Automating-ERV.md %}
-[Z-Wave functionality]: {% link collections/_the_erv/ERV-switching.md %}
+[Part 1]: {% link _the_erv/Automating-ERV.md %}
+[Z-Wave functionality]: {% link _the_erv/ERV-switching.md %}
 [ERV]: /use_cases/the_erv.html
 [SmartThings]: /the_tools/smartthings.html
 [Dew Point]: https://en.wikipedia.org/wiki/Dew_point

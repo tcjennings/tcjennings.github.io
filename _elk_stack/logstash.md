@@ -301,4 +301,4 @@ That should do it. I'll uncomment both the `file` and `elasticsearch` sections o
 [here]: https://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html
 [Logstash]: https://www.elastic.co/products/logstash
 [ELK Stack]: /the_tools/elk-stack.html
-[dashboard]: {% link collections/_elk_stack/The-Dashboard.md %}
+[dashboard]: {% link _elk_stack/The-Dashboard.md %}

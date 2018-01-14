@@ -91,8 +91,8 @@ The interaction of these two values means you can create a lot of different beha
 Right. The GE Smart Dimmer Switch. It's mainstream. It's widely available. It's not inexpensive. It does what it says it does. You might have to mess around with SmartThings before you're actually happy with it.
 
 [IDE]: https://graph.api.smartthings.com
-[previous post]:{% link collections/_smartthings/ge-switches.md %}
-[project board]: {% link collections/_smartthings/project-board.md %}
+[previous post]:{% link _smartthings/ge-switches.md %}
+[project board]: {% link _smartthings/project-board.md %}
 [advanced configuration]: http://www.ezzwave.com/advanced-operation/
 [Commercial Electric]: http://www.homedepot.com/p/Commercial-Electric-5-in-and-6-in-White-Recessed-LED-Trim-with-2700K-92-CRI-CER6730DWH27/204726945
 [elsewhere]: http://docs.smartthings.com/en/latest/tools-and-ide/github-integration.html
